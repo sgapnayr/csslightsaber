@@ -55,7 +55,7 @@ label {
   }
 
   .lightsaber {
-    margin-right: -7rem;
+    margin-right: -5rem;
     transform: translateY(45%);
     transform: translateX(-1rem);
     grid-row: inherit;
