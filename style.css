@@ -51,13 +51,12 @@ label {
 
 @media screen and (max-width: 768px) {
   label {
-    transform: scale(0.9);
-    padding: 0rem;
+    transform: scale(1);
   }
 
   .lightsaber {
     margin-right: -7rem;
-    transform: translateY(70%);
+    transform: translateY(60%);
   }
 }
 
