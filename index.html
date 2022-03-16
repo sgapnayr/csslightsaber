@@ -7,29 +7,36 @@
     <meta name="description" content="Lightsaber" />
     <meta name="keywords" content="Light saber" />
     <link rel="stylesheet" href="/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>CSS Lightsaber</title>
   </head>
-  <label for="green" class="green"><p>Green</p> </label>
-  <input type="radio" id="green" name="color" class="green btn" checked />
-  <label for="blue"><p>Blue</p> </label>
-  <input type="radio" id="blue" name="color" class="btn" />
-  <label for="yellow"><p>Yellow</p> </label>
-  <input type="radio" id="yellow" name="color" class="btn" />
-  <label for="purple"><p>Purple</p> </label>
-  <input type="radio" id="purple" name="color" class="btn" />
-  <label for="red"><p>Red</p> </label>
-  <input type="radio" id="red" name="color" class="btn" />
-  <label for="darksaber"><p>Dark</p> </label>
-  <input type="radio" id="darksaber" name="color" class="btn" />
-  <body>
-    <div class="lightsaber">
+  <body data-aos="fade" data-aos-duration="1500">
+    <label for="green" class="green"><p>Green</p> </label>
+    <input type="radio" id="green" name="color" class="green btn" checked />
+    <label for="blue"><p>Blue</p> </label>
+    <input type="radio" id="blue" name="color" class="btn" />
+    <label for="yellow"><p>Yellow</p> </label>
+    <input type="radio" id="yellow" name="color" class="btn" />
+    <label for="purple"><p>Purple</p> </label>
+    <input type="radio" id="purple" name="color" class="btn" />
+    <label for="red"><p>Red</p> </label>
+    <input type="radio" id="red" name="color" class="btn" />
+    <label for="darksaber"><p>Dark</p> </label>
+    <input type="radio" id="darksaber" name="color" class="btn" />
+    <div class="lightsaber" data-aos="fade-down" data-aos="">
       <input type="checkbox" id="on-off" />
       <div class="blade"></div>
       <label class="hilt" for="on-off"> </label>
-      <embed src="https://assets.codepen.io/308367/coolsaber.mp3" type="" />
+      <embed
+        src="https://assets.codepen.io/308367/coolsaber.mp3"
+        type=""
+        target="_play"
+      />
     </div>
-    <div class="instructions">
-      <h1>Press on the Lightsaber</h1>
-    </div>
+    <div class="instructions" data-aos="fade" data-aos-duration="1000"></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
