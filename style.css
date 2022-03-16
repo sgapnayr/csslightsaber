@@ -56,7 +56,8 @@ label {
 
   .lightsaber {
     margin-right: -7rem;
-    transform: translateY(50%);
+    transform: translateY(45%);
+    grid-row: inherit;
   }
 }
 
@@ -84,7 +85,7 @@ label:not(.hilt) {
 /* Lightsaber */
 
 .lightsaber {
-  margin-top: 42vh;
+  margin-top: 43vh;
   grid-column: 1 / -1;
   position: relative;
 }
@@ -240,7 +241,6 @@ embed {
   width: 10%;
   height: 100vh;
   margin-top: -10rem;
-  margin-left: 3rem;
+  margin-left: 2.5rem;
   z-index: 100;
-  padding-right: 2rem;
 }
